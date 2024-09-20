@@ -98,7 +98,7 @@ time singularity exec -e \
     --nthreads 8 \
     --verbose \
     --work-dir $WORKDIRNAME \
-    bids $outdir participant \
+    bids $outdir/qsiprep participant \
     $optional
     
 echo "done with qsiprep! - now organizing output"
